@@ -11,7 +11,7 @@
     <!-- <title>Document</title> -->
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">SARUN</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +30,7 @@
         {
           $count=count($_SESSION['cart']);
         }?>
-        <a href="mycart.php" class="btn btn-outline-success">My Cart(<?php echo $count;?>)</a>
+        <a href="mycart.php" class="btn btn-success">My Cart(<?php echo $count;?>)</a>
       </div>
     </div>
   </div>
